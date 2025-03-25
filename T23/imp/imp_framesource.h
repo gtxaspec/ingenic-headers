@@ -140,6 +140,7 @@ typedef struct {
 	int outFrmRateDen;          /**< the denominator of output fps */
 	int nrVBs;                  /**< the number of Video buffers */
 	IMPFSChnType type;          /**< the type of the frame channel */
+	IMPFSChnCrop fcrop;	    /**< picture fcrop Attr*/
 	int mirr_enable;            /**< picture mirror enable */
 } IMPFSChnAttr;
 
