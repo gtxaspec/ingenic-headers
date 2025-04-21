@@ -1339,7 +1339,7 @@ int IMP_ADEC_ReleaseStream(int adChn,IMPAudioStream *stream);
  int IMP_ADEC_RegisterDecoder(int *handle, IMPAudioDecDecoder *decoder);
 
 /**
- * @fn int IMP_ADEC_ReleaseDecoder(int *handle)
+ * @fn int IMP_ADEC_UnRegisterDecoder(int *handle)
  *
  * 注销解码器.
  *
@@ -1352,7 +1352,7 @@ int IMP_ADEC_ReleaseStream(int adChn,IMPAudioStream *stream);
  *
  * @attention 无.
  */
- int IMP_ADEC_ReleaseDecoder(int *handle);
+ int IMP_ADEC_UnRegisterDecoder(int *handle);
 
 /**
  * ACODEC配置.
