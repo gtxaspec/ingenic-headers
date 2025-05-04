@@ -233,6 +233,20 @@ typedef struct stRgnRigsterStat{
 	int status;                         /**< osd组区域注册的状态：0、未注册，1、区域已注册 */
 }IMPOSDRgnRegisterStat;
 
+/**
+ * @fn int IMP_OSD_SetPoolSize(int size);
+ *
+ * 设置OSD rmem池大小
+ *
+ *
+ * @retval  0 成功
+ * @retval -1 失败
+ *
+ * @remarks 无。
+ * 
+ * @attention 无。
+ */
+int IMP_OSD_SetPoolSize(int size);
 
 /**
  * @fn int IMP_OSD_SetMosaic(unsigned char *frame_virAddr, IMPOSDMosaicAttr *mosaicAttr);
